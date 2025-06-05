@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sun, Moon } from 'lucide-react';
-import { useTheme } from '../context/ThemeContext'; // Corrected path to ThemeContext
+import { useTheme } from '../Context/ThemeContext'; // Corrected path to ThemeContext
 
 // --- Theme Toggle Component ---
 const ThemeToggle = () => {
