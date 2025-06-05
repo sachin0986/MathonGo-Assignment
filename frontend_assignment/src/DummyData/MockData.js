@@ -1,5 +1,4 @@
-export const LogoLink = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVKjW0BErEAg4bNTvY4meQvH1n2SOI7RGfw&s";
-
+export const LogoLink = "https://res.cloudinary.com/dm2ek1ift/image/upload/v1749150738/jee_iirdwe.png"
 
 export const mockData = [
   {
