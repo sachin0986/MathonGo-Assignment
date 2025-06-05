@@ -6,7 +6,7 @@ import { Flask, MathOperations, Atom } from "@phosphor-icons/react";
 const LogoLink = "src/assets/jee.png";
 
 // --- Sidebar Component ---
-const Sidebar = ({ currentView, onViewChange }) => {
+const SideBar = ({ currentView, onViewChange }) => {
   const subjects = [
     {
       key: 'physics',
@@ -74,4 +74,4 @@ const Sidebar = ({ currentView, onViewChange }) => {
   );
 };
 
-export default Sidebar;
+export default SideBar;

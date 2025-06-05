@@ -4,7 +4,7 @@ import { ArrowUpDown } from 'lucide-react';
 // Import components and context from their correct paths (lowercase 'components' and 'context')
 import { ThemeProvider } from './Context/ThemeContext';
 import Header from './Components/Header';
-import Sidebar from './Components/Sidebar';
+import SideBar from './Components/SideBar';
 import FilterBar from './Components/FilterBar';
 import MobileNav from './Components/MobileNav';
 import ChapterCard from './Components/CardChapter';
@@ -58,7 +58,7 @@ const AppContent = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex flex-col md:flex-row font-sans">
-      <Sidebar currentView={currentView} onViewChange={handleViewChange} />
+      <SideBar currentView={currentView} onViewChange={handleViewChange} />
 
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header currentView={currentView} />
