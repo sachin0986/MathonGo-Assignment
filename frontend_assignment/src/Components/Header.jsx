@@ -39,7 +39,7 @@ const Header = ({ currentView }) => {
   const desktopInfo = getDesktopHeaderInfo();
   // Mobile header will always show JEE Main info
   const mobileInfo = {
-    icon: <img src={LogoLink} alt="JEE Main Logo" className="w-8 h-8 bg-transparent" />,
+    icon: <img src={LogoLink} className="w-8 h-8 bg-transparent" />,
     title: 'JEE Main',
     subtitle: '2025 - 2009 | 173 Papers | 15825 Qs'
   };
@@ -54,9 +54,6 @@ const Header = ({ currentView }) => {
         </button>
         {/* Centered JEE Main info */}
         <div className="flex items-center gap-2 flex-1 justify-center">
-          <div className="w-8 h-8 rounded-lg flex items-center justify-center text-lg flex-shrink-0">
-            {mobileInfo.icon}
-          </div>
           <div>
             <h1 className="font-semibold text-gray-900 dark:text-gray-100 whitespace-nowrap">{mobileInfo.title}</h1>
           </div>
