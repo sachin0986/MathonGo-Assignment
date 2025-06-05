@@ -3,7 +3,7 @@ import { ChevronRight } from 'lucide-react';
 import { Flask, MathOperations, Atom } from "@phosphor-icons/react";
 
 // Assuming this path for your logo, adjust if different
-const LogoLink = "src/assets/jee.png";
+const LogoLink = "https://res.cloudinary.com/dm2ek1ift/image/upload/v1749150738/jee_iirdwe.png";
 
 // --- Sidebar Component ---
 const SideBar = ({ currentView, onViewChange }) => {

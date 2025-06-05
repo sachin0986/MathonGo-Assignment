@@ -2,9 +2,9 @@ import React from 'react';
 import { ChevronLeft } from 'lucide-react';
 import { Flask, MathOperations, Atom } from "@phosphor-icons/react";
 import ThemeToggle from './ThemeToggle'; // Corrected path
-import { LogoLink } from '../DummyData/MockData';
 
-// Assuming this path for your logo, adjust if different
+const LogoLink = "https://res.cloudinary.com/dm2ek1ift/image/upload/v1749150738/jee_iirdwe.png";
+
 
 
 // --- Header Component ---
